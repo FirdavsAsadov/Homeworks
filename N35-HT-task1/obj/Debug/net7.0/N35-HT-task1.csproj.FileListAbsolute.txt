@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\bin\Debug\net7.0\N35-HT-task1.exe
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\bin\Debug\net7.0\N35-HT-task1.deps.json
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\bin\Debug\net7.0\N35-HT-task1.runtimeconfig.json
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\bin\Debug\net7.0\N35-HT-task1.dll
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\bin\Debug\net7.0\N35-HT-task1.pdb
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.AssemblyInfo.cs
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.dll
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\refint\N35-HT-task1.dll
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.pdb
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\N35-HT-task1.genruntimeconfig.cache
+C:\Users\user\source\repos\Homeworks\N35-HT-task1\obj\Debug\net7.0\ref\N35-HT-task1.dll

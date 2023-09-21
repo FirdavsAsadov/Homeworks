@@ -1,0 +1,4 @@
+C:\Users\user\source\repos\Homeworks\N35-HT-Task2\obj\Debug\net7.0\N35-HT-Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Homeworks\N35-HT-Task2\obj\Debug\net7.0\N35-HT-Task2.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Homeworks\N35-HT-Task2\obj\Debug\net7.0\N35-HT-Task2.AssemblyInfo.cs
+C:\Users\user\source\repos\Homeworks\N35-HT-Task2\obj\Debug\net7.0\N35-HT-Task2.csproj.CoreCompileInputs.cache

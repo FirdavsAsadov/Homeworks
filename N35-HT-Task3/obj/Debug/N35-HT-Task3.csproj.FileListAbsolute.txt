@@ -1,0 +1,2 @@
+C:\Users\user\source\repos\Homeworks\N35-HT-Task3\obj\Debug\N35-HT-Task3.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Homeworks\N35-HT-Task3\obj\Debug\N35-HT-Task3.csproj.CoreCompileInputs.cache

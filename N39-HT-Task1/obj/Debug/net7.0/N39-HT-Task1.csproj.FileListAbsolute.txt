@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\bin\Debug\net7.0\N39-HT-Task1.exe
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\bin\Debug\net7.0\N39-HT-Task1.deps.json
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\bin\Debug\net7.0\N39-HT-Task1.runtimeconfig.json
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\bin\Debug\net7.0\N39-HT-Task1.dll
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\bin\Debug\net7.0\N39-HT-Task1.pdb
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.AssemblyInfo.cs
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.dll
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\refint\N39-HT-Task1.dll
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.pdb
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\N39-HT-Task1.genruntimeconfig.cache
+C:\Users\user\source\repos\Homeworks\N39-HT-Task1\obj\Debug\net7.0\ref\N39-HT-Task1.dll

@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\Homeworks\N40-CT-Task2\bin\Debug\N40_CT_Task2.exe
+C:\Users\user\source\repos\Homeworks\N40-CT-Task2\bin\Debug\N40_CT_Task2.pdb
+C:\Users\user\source\repos\Homeworks\N40-CT-Task2\obj\Debug\N40-CT-Task2.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Homeworks\N40-CT-Task2\obj\Debug\N40-CT-Task2.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Homeworks\N40-CT-Task2\obj\Debug\N40_CT_Task2.exe
+C:\Users\user\source\repos\Homeworks\N40-CT-Task2\obj\Debug\N40_CT_Task2.pdb

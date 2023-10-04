@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DJvXKf6eSju9PYqQb1aAXesK7ulY8trie+RsecXkDFi6KWIt1gldxZ5+F/WjS9LFHM4jVJ0R1WliI1q9o2O8dw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\Homeworks\\N48-HT-Task1\\N48-HT-Task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\max.filebasecontext.abstractions\\0.0.2\\max.filebasecontext.abstractions.0.0.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\max.filebasecontext.context\\0.0.4\\max.filebasecontext.context.0.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\max.filebasecontext.set\\0.0.1\\max.filebasecontext.set.0.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

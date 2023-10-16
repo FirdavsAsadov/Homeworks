@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\N53-Ht-Task1.api.props" />
+</Project>

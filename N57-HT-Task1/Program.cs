@@ -1,0 +1,11 @@
+﻿var appFolder = Directory.GetCurrentDirectory();
+var absolutePath = @"C:\Users\user\source\repos\Homeworks\N57-HT-Task1\bin\Debug\net7.0";
+var baseDirectory = Path.Combine(absolutePath, "Storage");
+var userFolderName = "User";
+var userId = "D426EE1A-486A-4F76-98D4-29CA8B176F76";
+var profileFolder = "Profile";
+var resumeFolder = "Resume";
+var userFolderPath = Path.Combine(baseDirectory, userFolderName, userId,profileFolder);
+var resumeuserFolderPath = Path.Combine(baseDirectory, userFolderName, userId,resumeFolder);
+Directory.CreateDirectory(userFolderPath);
+Directory.CreateDirectory(resumeuserFolderPath);

@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FileExplorer.Application.FIleStorage.Models.Storage
+{
+    public class StorageDirectory : IStorageEntry
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Path { get; set; } = string.Empty;
+        public long ItemsCount { get; set; }
+        public StorageItemType ItemType { get; set; }
+    }
+}

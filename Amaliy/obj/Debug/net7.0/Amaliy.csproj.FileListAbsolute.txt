@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Homeworks\Amaliy\bin\Debug\net7.0\Amaliy.exe
+C:\Users\user\source\repos\Homeworks\Amaliy\bin\Debug\net7.0\Amaliy.deps.json
+C:\Users\user\source\repos\Homeworks\Amaliy\bin\Debug\net7.0\Amaliy.runtimeconfig.json
+C:\Users\user\source\repos\Homeworks\Amaliy\bin\Debug\net7.0\Amaliy.dll
+C:\Users\user\source\repos\Homeworks\Amaliy\bin\Debug\net7.0\Amaliy.pdb
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.AssemblyInfo.cs
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.dll
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\refint\Amaliy.dll
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.pdb
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\Amaliy.genruntimeconfig.cache
+C:\Users\user\source\repos\Homeworks\Amaliy\obj\Debug\net7.0\ref\Amaliy.dll

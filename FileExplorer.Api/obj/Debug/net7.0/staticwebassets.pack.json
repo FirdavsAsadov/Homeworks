@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (2)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (2)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (2)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (2)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (3)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (3)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (3)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (3)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (4)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (4)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (4)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (4)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (5)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (5)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (5)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (5)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (6)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (6)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (6)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (6)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (7)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (7)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (7)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy (7)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books - Copy\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "PackagePath": "staticwebassets\\Books\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "PackagePath": "staticwebassets\\Books\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FileExplorer.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FileExplorer.Api.props",
+      "PackagePath": "build\\FileExplorer.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FileExplorer.Api.props",
+      "PackagePath": "buildMultiTargeting\\FileExplorer.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FileExplorer.Api.props",
+      "PackagePath": "buildTransitive\\FileExplorer.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

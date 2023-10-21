@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\bin\Debug\net7.0\FileExplorer.Application.deps.json
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\bin\Debug\net7.0\FileExplorer.Application.dll
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\bin\Debug\net7.0\FileExplorer.Application.pdb
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.AssemblyInfo.cs
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.dll
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\refint\FileExplorer.Application.dll
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\FileExplorer.Application.pdb
+C:\Users\user\source\repos\Homeworks\FileExplorer.Application\obj\Debug\net7.0\ref\FileExplorer.Application.dll

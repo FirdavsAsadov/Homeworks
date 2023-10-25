@@ -16,8 +16,8 @@ namespace FileExplorer.Api.Controllers
         [HttpGet]
         public async ValueTask<IActionResult> GetAsync()
         {
-            _driveService.GetAsync();
-
+           await _driveService.GetAsync();
+            return Ok();
         }
     }
 }

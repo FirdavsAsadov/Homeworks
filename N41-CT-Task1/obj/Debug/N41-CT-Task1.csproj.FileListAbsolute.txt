@@ -1,2 +1,4 @@
 C:\Users\user\source\repos\Homeworks\N41-CT-Task1\obj\Debug\N41-CT-Task1.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\Homeworks\N41-CT-Task1\obj\Debug\N41-CT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N41-CT-Task1\obj\Debug\N41-CT-Task1.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N41-CT-Task1\obj\Debug\N41-CT-Task1.csproj.CoreCompileInputs.cache

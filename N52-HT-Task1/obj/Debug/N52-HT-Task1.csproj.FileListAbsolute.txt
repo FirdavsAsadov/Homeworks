@@ -1,0 +1,2 @@
+C:\Users\toshm\Homeworks\N52-HT-Task1\obj\Debug\N52-HT-Task1.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N52-HT-Task1\obj\Debug\N52-HT-Task1.csproj.CoreCompileInputs.cache

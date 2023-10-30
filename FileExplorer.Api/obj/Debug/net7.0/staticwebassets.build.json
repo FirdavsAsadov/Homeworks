@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aI/cuI26rNAKkB97jDdmc6KD1tOGIb+07QmnbLopWSA=",
+  "Hash": "+b80XLTXGpdIJWx6B1AUiVrab2e9u+lNnCRwmHRT0RU=",
   "Source": "FileExplorer.Api",
   "BasePath": "_content/FileExplorer.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FileExplorer.Api\\wwwroot",
       "Source": "FileExplorer.Api",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (2)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (2)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (2)/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (2)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (2)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (2)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (2)/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (2)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (3)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (3)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (3)/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (3)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (3)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (3)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (3)/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (3)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (4)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (4)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (4)/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (4)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (4)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (4)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (4)/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (4)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (5)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (5)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (5)/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (5)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (5)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (5)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (5)/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (5)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (6)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (6)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (6)/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (6)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (6)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (6)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (6)/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (6)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (7)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (7)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (7)/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (7)\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (7)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy (7)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy (7)/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy (7)\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books - Copy\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books - Copy/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Books - Copy\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Books\\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\Books\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
+      "Identity": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\Books\\NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "SourceId": "FileExplorer.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Homeworks\\FileExplorer.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\toshm\\Homeworks\\FileExplorer.Api\\wwwroot\\",
       "BasePath": "_content/FileExplorer.Api",
       "RelativePath": "Books/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf",
       "AssetKind": "All",

@@ -1,0 +1,6 @@
+C:\Users\toshm\Homeworks\N43-Ht-Task1\bin\Debug\N43_Ht_Task1.exe
+C:\Users\toshm\Homeworks\N43-Ht-Task1\bin\Debug\N43_Ht_Task1.pdb
+C:\Users\toshm\Homeworks\N43-Ht-Task1\obj\Debug\N43-Ht-Task1.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N43-Ht-Task1\obj\Debug\N43-Ht-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N43-Ht-Task1\obj\Debug\N43_Ht_Task1.exe
+C:\Users\toshm\Homeworks\N43-Ht-Task1\obj\Debug\N43_Ht_Task1.pdb

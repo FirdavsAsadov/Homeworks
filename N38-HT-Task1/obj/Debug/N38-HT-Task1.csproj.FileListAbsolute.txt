@@ -4,3 +4,9 @@ C:\Users\user\source\repos\Homeworks\N38-HT-Task1\obj\Debug\N38-HT-Task1.csproj.
 C:\Users\user\source\repos\Homeworks\N38-HT-Task1\obj\Debug\N38-HT-Task1.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Homeworks\N38-HT-Task1\obj\Debug\N38_HT_Task1.exe
 C:\Users\user\source\repos\Homeworks\N38-HT-Task1\obj\Debug\N38_HT_Task1.pdb
+C:\Users\toshm\Homeworks\N38-HT-Task1\bin\Debug\N38_HT_Task1.exe
+C:\Users\toshm\Homeworks\N38-HT-Task1\bin\Debug\N38_HT_Task1.pdb
+C:\Users\toshm\Homeworks\N38-HT-Task1\obj\Debug\N38-HT-Task1.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N38-HT-Task1\obj\Debug\N38-HT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N38-HT-Task1\obj\Debug\N38_HT_Task1.exe
+C:\Users\toshm\Homeworks\N38-HT-Task1\obj\Debug\N38_HT_Task1.pdb

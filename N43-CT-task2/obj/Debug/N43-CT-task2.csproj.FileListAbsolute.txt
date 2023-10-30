@@ -4,3 +4,9 @@ C:\Users\user\source\repos\Homeworks\N43-CT-task2\obj\Debug\N43-CT-task2.csproj.
 C:\Users\user\source\repos\Homeworks\N43-CT-task2\obj\Debug\N43-CT-task2.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Homeworks\N43-CT-task2\obj\Debug\N43_CT_task2.exe
 C:\Users\user\source\repos\Homeworks\N43-CT-task2\obj\Debug\N43_CT_task2.pdb
+C:\Users\toshm\Homeworks\N43-CT-task2\bin\Debug\N43_CT_task2.exe
+C:\Users\toshm\Homeworks\N43-CT-task2\bin\Debug\N43_CT_task2.pdb
+C:\Users\toshm\Homeworks\N43-CT-task2\obj\Debug\N43-CT-task2.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N43-CT-task2\obj\Debug\N43-CT-task2.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N43-CT-task2\obj\Debug\N43_CT_task2.exe
+C:\Users\toshm\Homeworks\N43-CT-task2\obj\Debug\N43_CT_task2.pdb

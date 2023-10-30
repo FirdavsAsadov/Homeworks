@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj": {}
+    "C:\\Users\\toshm\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj": {
+    "C:\\Users\\toshm\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj",
+        "projectUniqueName": "C:\\Users\\toshm\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj",
         "projectName": "CustomMidleWare",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Homeworks\\CustomMidleWare\\obj\\",
+        "projectPath": "C:\\Users\\toshm\\Homeworks\\CustomMidleWare\\CustomMidleWare.csproj",
+        "packagesPath": "C:\\Users\\toshm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toshm\\Homeworks\\CustomMidleWare\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\toshm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

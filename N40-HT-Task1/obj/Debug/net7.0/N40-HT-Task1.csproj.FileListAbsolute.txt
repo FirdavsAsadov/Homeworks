@@ -1,0 +1,14 @@
+C:\Users\toshm\Homeworks\N40-HT-Task1\bin\Debug\net7.0\N40-HT-Task1.exe
+C:\Users\toshm\Homeworks\N40-HT-Task1\bin\Debug\net7.0\N40-HT-Task1.deps.json
+C:\Users\toshm\Homeworks\N40-HT-Task1\bin\Debug\net7.0\N40-HT-Task1.runtimeconfig.json
+C:\Users\toshm\Homeworks\N40-HT-Task1\bin\Debug\net7.0\N40-HT-Task1.dll
+C:\Users\toshm\Homeworks\N40-HT-Task1\bin\Debug\net7.0\N40-HT-Task1.pdb
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.dll
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\refint\N40-HT-Task1.dll
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.pdb
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\N40-HT-Task1.genruntimeconfig.cache
+C:\Users\toshm\Homeworks\N40-HT-Task1\obj\Debug\net7.0\ref\N40-HT-Task1.dll

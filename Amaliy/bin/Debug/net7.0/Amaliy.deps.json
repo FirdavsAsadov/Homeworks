@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Amaliy/1.0.0": {
+        "dependencies": {
+          "N55-HT-Task1": "1.0.0"
+        },
         "runtime": {
           "Amaliy.dll": {}
+        }
+      },
+      "N55-HT-Task1/1.0.0": {
+        "runtime": {
+          "N55-HT-Task1.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Amaliy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "N55-HT-Task1/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

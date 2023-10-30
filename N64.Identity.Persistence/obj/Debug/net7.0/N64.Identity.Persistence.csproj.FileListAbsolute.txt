@@ -1,0 +1,15 @@
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\bin\Debug\net7.0\N64.Identity.Persistence.deps.json
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\bin\Debug\net7.0\N64.Identity.Persistence.dll
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\bin\Debug\net7.0\N64.Identity.Persistence.pdb
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\bin\Debug\net7.0\N64.Identity.Domain.dll
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\bin\Debug\net7.0\N64.Identity.Domain.pdb
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.csproj.CopyComplete
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.dll
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\refint\N64.Identity.Persistence.dll
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\N64.Identity.Persistence.pdb
+C:\Users\toshm\Homeworks\N64.Identity.Persistence\obj\Debug\net7.0\ref\N64.Identity.Persistence.dll

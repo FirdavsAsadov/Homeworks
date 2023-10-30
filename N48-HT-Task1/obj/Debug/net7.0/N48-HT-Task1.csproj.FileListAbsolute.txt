@@ -1,0 +1,6 @@
+C:\Users\toshm\Homeworks\N48-HT-Task1\obj\Debug\net7.0\N48-HT-Task1.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\N48-HT-Task1\obj\Debug\net7.0\N48-HT-Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N48-HT-Task1\obj\Debug\net7.0\N48-HT-Task1.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N48-HT-Task1\obj\Debug\net7.0\N48-HT-Task1.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N48-HT-Task1\obj\Debug\net7.0\N48-HT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N48-HT-Task1\obj\Debug\net7.0\N48-HT-Task1.MvcApplicationPartsAssemblyInfo.cache

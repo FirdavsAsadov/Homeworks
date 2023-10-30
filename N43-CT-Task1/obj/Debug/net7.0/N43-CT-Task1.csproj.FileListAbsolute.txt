@@ -12,3 +12,17 @@ C:\Users\user\source\repos\Homeworks\N43-CT-Task1\obj\Debug\net7.0\refint\N43-CT
 C:\Users\user\source\repos\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.pdb
 C:\Users\user\source\repos\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.genruntimeconfig.cache
 C:\Users\user\source\repos\Homeworks\N43-CT-Task1\obj\Debug\net7.0\ref\N43-CT-Task1.dll
+C:\Users\toshm\Homeworks\N43-CT-Task1\bin\Debug\net7.0\N43-CT-Task1.exe
+C:\Users\toshm\Homeworks\N43-CT-Task1\bin\Debug\net7.0\N43-CT-Task1.deps.json
+C:\Users\toshm\Homeworks\N43-CT-Task1\bin\Debug\net7.0\N43-CT-Task1.runtimeconfig.json
+C:\Users\toshm\Homeworks\N43-CT-Task1\bin\Debug\net7.0\N43-CT-Task1.dll
+C:\Users\toshm\Homeworks\N43-CT-Task1\bin\Debug\net7.0\N43-CT-Task1.pdb
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.dll
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\refint\N43-CT-Task1.dll
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.pdb
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\N43-CT-Task1.genruntimeconfig.cache
+C:\Users\toshm\Homeworks\N43-CT-Task1\obj\Debug\net7.0\ref\N43-CT-Task1.dll

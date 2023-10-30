@@ -1,0 +1,14 @@
+C:\Users\toshm\Homeworks\N44-HT-Task2\bin\Debug\net7.0\N44-HT-Task2.exe
+C:\Users\toshm\Homeworks\N44-HT-Task2\bin\Debug\net7.0\N44-HT-Task2.deps.json
+C:\Users\toshm\Homeworks\N44-HT-Task2\bin\Debug\net7.0\N44-HT-Task2.runtimeconfig.json
+C:\Users\toshm\Homeworks\N44-HT-Task2\bin\Debug\net7.0\N44-HT-Task2.dll
+C:\Users\toshm\Homeworks\N44-HT-Task2\bin\Debug\net7.0\N44-HT-Task2.pdb
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.dll
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\refint\N44-HT-Task2.dll
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.pdb
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\N44-HT-Task2.genruntimeconfig.cache
+C:\Users\toshm\Homeworks\N44-HT-Task2\obj\Debug\net7.0\ref\N44-HT-Task2.dll

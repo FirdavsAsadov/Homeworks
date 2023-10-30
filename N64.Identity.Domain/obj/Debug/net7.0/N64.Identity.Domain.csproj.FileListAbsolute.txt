@@ -1,0 +1,11 @@
+C:\Users\toshm\Homeworks\N64.Identity.Domain\bin\Debug\net7.0\N64.Identity.Domain.deps.json
+C:\Users\toshm\Homeworks\N64.Identity.Domain\bin\Debug\net7.0\N64.Identity.Domain.dll
+C:\Users\toshm\Homeworks\N64.Identity.Domain\bin\Debug\net7.0\N64.Identity.Domain.pdb
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\N64.Identity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\N64.Identity.Domain.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\N64.Identity.Domain.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\N64.Identity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\N64.Identity.Domain.dll
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\refint\N64.Identity.Domain.dll
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\N64.Identity.Domain.pdb
+C:\Users\toshm\Homeworks\N64.Identity.Domain\obj\Debug\net7.0\ref\N64.Identity.Domain.dll

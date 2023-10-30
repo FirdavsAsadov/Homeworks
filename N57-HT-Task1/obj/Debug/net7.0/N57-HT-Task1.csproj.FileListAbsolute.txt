@@ -12,3 +12,10 @@ C:\Users\user\source\repos\Homeworks\N57-HT-Task1\obj\Debug\net7.0\refint\N57-HT
 C:\Users\user\source\repos\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.pdb
 C:\Users\user\source\repos\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.genruntimeconfig.cache
 C:\Users\user\source\repos\Homeworks\N57-HT-Task1\obj\Debug\net7.0\ref\N57-HT-Task1.dll
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.dll
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\refint\N57-HT-Task1.dll
+C:\Users\toshm\Homeworks\N57-HT-Task1\obj\Debug\net7.0\N57-HT-Task1.pdb

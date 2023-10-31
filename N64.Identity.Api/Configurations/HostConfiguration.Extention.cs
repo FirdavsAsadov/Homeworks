@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using N64.Identity.Application.Common.Identity.Service;
+using N64.Identity.Application.Common.NotificationService;
 using N64.Identity.Application.Common.Settings;
 using N64.Identity.Infrastructure.Common.Identity.Services;
+using N64.Identity.Infrastructure.Common.NotificationService;
 using System.Text;
 
 namespace N64.Identity.Api.Configurations
@@ -11,18 +13,23 @@ namespace N64.Identity.Api.Configurations
     {
         private static WebApplicationBuilder AddIdentityInfrastructure(this WebApplicationBuilder builder)
         {
-            builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection(nameof(JwtSettings)));
             builder.Services.Configure<VerificationTokenSettings>(builder.Configuration.GetSection(nameof(VerificationTokenSettings)));
-            builder.Services.Configure<EmailSenderSettings>(builder.Configuration.GetSection(nameof(EmailSenderSettings)));
+            builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection(nameof(JwtSettings)));
 
-            builder.Services.AddTransient<ITokenGeneratorService, TokenGeneratorService>();
+            builder.Services.AddDataProtection();
+
+            builder.Services
+                .AddTransient<ITokenGeneratorService, TokenGeneratorService>()
+                .AddTransient<IPasswordHasher, PasswordHasher>()
+                .AddTransient<IVerificationTokenGeneratorService, VerificationTokenGeneratorService>();
+
             builder.Services
                 .AddScoped<IAuthService, AuthService>()
-                .AddScoped<IAccountService, AccountService>()
-                .AddScoped<IPasswordHasher, PasswordHasher>()
-                .AddScoped<IVerificationTokenGeneratorService, VerificationTokenGeneratorService>();
+                .AddScoped<IAccountService, AccountService>();
+                
 
             var jwtSettings = new JwtSettings();
+            builder.Configuration.GetSection(nameof(JwtSettings)).Bind(jwtSettings);
             builder
                 .Services
                 .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -44,6 +51,8 @@ namespace N64.Identity.Api.Configurations
         }
         private static WebApplicationBuilder AddNotificationInfrastructure(this WebApplicationBuilder builder)
         {
+            builder.Services.Configure<EmailSenderSettings>(builder.Configuration.GetSection(nameof(EmailSenderSettings)));
+            builder.Services.AddScoped<IEmailOrchestrationService, EmailOrchestrationService>();
             return builder;
         }
         private static WebApplicationBuilder AddDevTools(this WebApplicationBuilder builder)

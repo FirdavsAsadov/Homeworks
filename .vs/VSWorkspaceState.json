@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\N62-HT-Task1"
+    "\\N62-HT-Task1",
+    "\\N62-HT-Task1\\Controllers",
+    "\\N64.Identity.Infrastructure"
   ],
-  "SelectedNode": "\\N62-HT-Task1\\Program.cs",
+  "SelectedNode": "\\N64.Identity.Infrastructure\\N64.Identity.Infrastructure.csproj",
   "PreviewInSolutionExplorer": false
 }

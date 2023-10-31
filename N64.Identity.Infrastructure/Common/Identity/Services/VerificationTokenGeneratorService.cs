@@ -14,8 +14,8 @@ public class VerificationTokenGeneratorService : IVerificationTokenGeneratorServ
     private readonly VerificationTokenSettings _verificationTokenSettings;
     public VerificationTokenGeneratorService(IDataProtectionProvider protector, IOptions<VerificationTokenSettings> verificationTokenSettings)
     {
-        _protector = protector.CreateProtector(_verificationTokenSettings.IdentityVerificationTokenPurpose);
         _verificationTokenSettings = verificationTokenSettings.Value;
+        _protector = protector.CreateProtector(_verificationTokenSettings.IdentityVerificationTokenPurpose);
     }
 
     public (VerificationToken Token, bool isValid) DecodeToken(string token)

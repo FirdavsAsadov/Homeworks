@@ -1,3 +1,7 @@
+using N64.Identity.Api.Configurations;
+
 var builder = WebApplication.CreateBuilder(args);
+await builder.ConfigureAsync();
 var app = builder.Build();
-app.Run();
+await app.ConfigureAsync();
+await app.RunAsync();

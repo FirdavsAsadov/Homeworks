@@ -1,10 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\EduCourse.Persistence",
+    "\\EduCourse.Persistence\\EntityConfiguration",
     "\\N62-HT-Task1",
     "\\N62-HT-Task1\\Controllers",
-    "\\N64.Identity.Infrastructure"
+    "\\N64.Identity.Infrastructure",
+    "\\N66-CT-Task1",
+    "\\N66-CT-Task1\\Persistence",
+    "\\N66-CT-Task1\\Persistence\\DataContext",
+    "\\N66-HT-Task1",
+    "\\N66-HT-Task1\\Services"
   ],
-  "SelectedNode": "\\N64.Identity.Infrastructure\\N64.Identity.Infrastructure.csproj",
+  "SelectedNode": "\\EduCourse.Persistence\\EntityConfiguration\\CourseConfigurations.cs",
   "PreviewInSolutionExplorer": false
 }

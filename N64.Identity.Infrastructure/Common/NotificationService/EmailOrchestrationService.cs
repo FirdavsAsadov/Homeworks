@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
+using N64.Identity.Application.Common.Enums;
+using N64.Identity.Application.Common.Identity.Service;
 using N64.Identity.Application.Common.NotificationService;
 using N64.Identity.Application.Common.Settings;
 using System.Net;
@@ -9,10 +11,12 @@ namespace N64.Identity.Infrastructure.Common.NotificationService;
 public class EmailOrchestrationService : IEmailOrchestrationService
 {
     private readonly EmailSenderSettings _settings;
+    private readonly IVerificationCodeGeneratorService _verificationCodeGeneratorService;
 
-    public EmailOrchestrationService(IOptions<EmailSenderSettings> settings)
+    public EmailOrchestrationService(IOptions<EmailSenderSettings> settings, IVerificationCodeGeneratorService verificationCodeGeneratorService)
     {
         _settings = settings.Value;
+        _verificationCodeGeneratorService = verificationCodeGeneratorService;
     }
 
     public ValueTask<bool> SendAsync(string emailAddress, string message)
@@ -26,6 +30,21 @@ public class EmailOrchestrationService : IEmailOrchestrationService
         smtpClient.EnableSsl = true;
 
         smtpClient.Send(mail);
+
+        return new(true);
+    }
+
+    public ValueTask<bool> SendVerificationCodeAsync(string emailAddress, string message)
+    {
+        var mail = new MailMessage(_settings.CredentialAddress, emailAddress);
+
+        mail.Body = message;
+
+        var smptClient = new SmtpClient(_settings.Host, _settings.Port);
+        smptClient.Credentials = new NetworkCredential(_settings.CredentialAddress, _settings.Password);
+        smptClient.EnableSsl = true;
+
+        smptClient.Send(mail);
 
         return new(true);
     }

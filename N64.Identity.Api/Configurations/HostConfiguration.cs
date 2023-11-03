@@ -7,7 +7,8 @@
             builder.AddIdentityInfrastructure()
                 .AddNotificationInfrastructure()
                 .AddDevTools()
-                .AddExposers();
+                .AddExposers()
+                .AddPersistence();
 
             return new(builder);
         }

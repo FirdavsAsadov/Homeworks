@@ -5,6 +5,7 @@ using N64.Identity.Application.Common.NotificationService;
 using N64.Identity.Application.Common.Settings;
 using N64.Identity.Infrastructure.Common.Identity.Services;
 using N64.Identity.Infrastructure.Common.NotificationService;
+using N64.Identity.Persistence.DataContext;
 using System.Text;
 
 namespace N64.Identity.Api.Configurations
@@ -19,13 +20,16 @@ namespace N64.Identity.Api.Configurations
             builder.Services.AddDataProtection();
 
             builder.Services
-                .AddTransient<ITokenGeneratorService, TokenGeneratorService>()
+                .AddTransient<IAccessTokenGeneratorService, AccessTokenGeneratorService>()
                 .AddTransient<IPasswordHasher, PasswordHasher>()
-                .AddTransient<IVerificationTokenGeneratorService, VerificationTokenGeneratorService>();
+                .AddTransient<IVerificationCodeGeneratorService, VerificationTokenGeneratorService>()
+                .AddTransient<IVerificationCodeGeneratorService, VerificationCodeGeneratorService>();
 
             builder.Services
                 .AddScoped<IAuthService, AuthService>()
-                .AddScoped<IAccountService, AccountService>();
+                .AddScoped<IAccountService, AccountService>()
+                .AddScoped<IUserService, UserService>()
+                .AddScoped<ITokenService, TokenService>();
                 
 
             var jwtSettings = new JwtSettings();
@@ -53,6 +57,11 @@ namespace N64.Identity.Api.Configurations
         {
             builder.Services.Configure<EmailSenderSettings>(builder.Configuration.GetSection(nameof(EmailSenderSettings)));
             builder.Services.AddScoped<IEmailOrchestrationService, EmailOrchestrationService>();
+            return builder;
+        }
+        private static WebApplicationBuilder AddPersistence(this WebApplicationBuilder builder)
+        {
+            builder.Services.AddDbContext<AppDbContext>();
             return builder;
         }
         private static WebApplicationBuilder AddDevTools(this WebApplicationBuilder builder)

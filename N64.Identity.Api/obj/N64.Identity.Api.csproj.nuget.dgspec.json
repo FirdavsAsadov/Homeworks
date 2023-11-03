@@ -296,6 +296,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\toshm\\Homeworks\\N64.Identity.Application\\N64.Identity.Application.csproj": {
+                "projectPath": "C:\\Users\\toshm\\Homeworks\\N64.Identity.Application\\N64.Identity.Application.csproj"
+              },
               "C:\\Users\\toshm\\Homeworks\\N64.Identity.Domain\\N64.Identity.Domain.csproj": {
                 "projectPath": "C:\\Users\\toshm\\Homeworks\\N64.Identity.Domain\\N64.Identity.Domain.csproj"
               }
@@ -311,6 +314,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

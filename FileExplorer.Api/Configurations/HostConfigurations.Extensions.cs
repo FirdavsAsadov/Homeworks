@@ -63,7 +63,7 @@ namespace FileExplorer.Api.Configurations
             //var mappingConfig = new MapperConfiguration(mc =>
             //{
             //    mc.AddProfile(new DirectoryProfile());
-            //    mc.AddProfile(new FileProfile());
+            //  mc.AddProfile(new FileProfile());
             //    mc.AddProfile(new DriveProfile());
             //});
             //builder.Services.AddSingleton<IMapper>(sp => mappingConfig.CreateMapper());

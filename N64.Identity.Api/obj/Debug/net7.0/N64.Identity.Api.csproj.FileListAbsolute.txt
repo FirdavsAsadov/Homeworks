@@ -47,3 +47,10 @@ C:\Users\toshm\Homeworks\N64.Identity.Api\obj\Debug\net7.0\refint\N64.Identity.A
 C:\Users\toshm\Homeworks\N64.Identity.Api\obj\Debug\net7.0\N64.Identity.Api.pdb
 C:\Users\toshm\Homeworks\N64.Identity.Api\obj\Debug\net7.0\N64.Identity.Api.genruntimeconfig.cache
 C:\Users\toshm\Homeworks\N64.Identity.Api\obj\Debug\net7.0\ref\N64.Identity.Api.dll
+C:\Users\toshm\Homeworks\N64.Identity.Api\obj\Debug\net7.0\N64.Identity.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\toshm\Homeworks\N64.Identity.Api\bin\Debug\net7.0\libman.json
+C:\Users\toshm\Homeworks\N64.Identity.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\toshm\Homeworks\N64.Identity.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\toshm\Homeworks\N64.Identity.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\toshm\Homeworks\N64.Identity.Api\bin\Debug\net7.0\Npgsql.dll
+C:\Users\toshm\Homeworks\N64.Identity.Api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

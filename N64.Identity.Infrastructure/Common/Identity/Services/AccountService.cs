@@ -2,21 +2,23 @@
 using N64.Identity.Application.Common.Identity.Service;
 using N64.Identity.Application.Common.NotificationService;
 using N64.Identity.Domain.Entities;
+using N64.Identity.Persistence.DataContext;
 
 namespace N64.Identity.Infrastructure.Common.Identity.Services;
 
 public class AccountService : IAccountService
 {
-    public static readonly List<User> _users = new();
-    private readonly IVerificationTokenGeneratorService _verificationTokenGeneratorService;
+    private readonly IVerificationCodeGeneratorService _verificationTokenGeneratorService;
     private readonly IEmailOrchestrationService  _emailOrchestrationService;
-    public AccountService(IVerificationTokenGeneratorService verificationTokenGeneratorService, IEmailOrchestrationService emailOrchestrationService)
+    private readonly IUserService _userService;
+    private readonly AppDbContext  _appDbContext;
+    public AccountService(IVerificationCodeGeneratorService verificationTokenGeneratorService, IEmailOrchestrationService emailOrchestrationService, IUserService userService, AppDbContext appDbContext)
     {
         _verificationTokenGeneratorService = verificationTokenGeneratorService;
         _emailOrchestrationService = emailOrchestrationService;
+        _userService = userService;
+        _appDbContext = appDbContext;
     }
-
-    public List<User> Users => _users;
     public ValueTask<bool> VerificateAsync(string token)
     {
         if (string.IsNullOrWhiteSpace(token))
@@ -24,7 +26,7 @@ public class AccountService : IAccountService
 
         var verificationTokenResult = _verificationTokenGeneratorService.DecodeToken(token);
 
-        if (!verificationTokenResult.isValid)
+        if (!verificationTokenResult.IsValid)
             throw new InvalidOperationException("Invalid verification token");
 
         var result = verificationTokenResult.Token.Type switch
@@ -38,20 +40,28 @@ public class AccountService : IAccountService
 
     public ValueTask<User> CreateUserAsync(User user)
     {
-        _users.Add(user);
+        _userService.CreateUserAsync(user);
 
-        var emailVerification = _verificationTokenGeneratorService.GenerateToken(VerificationType.EmailAddressVerification, user.Id);
-        _emailOrchestrationService.SendAsync(user.Email, emailVerification);
+        var emailVerification = _verificationTokenGeneratorService.GenerateCode(VerificationType.EmailAddressVerification, user.Id);
+        _emailOrchestrationService.SendAsync(user.Email, emailVerification.ToString());
 
         return new(user);
     }
+
     public ValueTask<bool> MarkEmailAsVerifiedAsync(Guid userId)
     {
-        var foundUser = _users.FirstOrDefault(user => user.Id == userId) ?? throw new InvalidOperationException();
+        var foundUser = _appDbContext.Users.FirstOrDefault(user => user.Id == userId) ?? throw new InvalidOperationException();
 
         foundUser.IsEmailAddressVerified = true;
 
         return new(true);
     }
 
+    public ValueTask<User> UpdateUserAsync(User user)
+    {
+        _userService.UpdateUserAsync(user);
+        var emailVerification = _verificationTokenGeneratorService.GenerateCode(VerificationType.EmailAddressVerification, user.Id);
+        _emailOrchestrationService.SendVerificationCodeAsync(user.Email, emailVerification.ToString());
+        return new(user);
+    }
 }

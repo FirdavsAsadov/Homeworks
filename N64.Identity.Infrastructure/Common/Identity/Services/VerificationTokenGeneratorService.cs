@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace N64.Identity.Infrastructure.Common.Identity.Services;
 
-public class VerificationTokenGeneratorService : IVerificationTokenGeneratorService
+public class VerificationTokenGeneratorService : IVerificationCodeGeneratorService
 {
     private readonly IDataProtector _protector;
     private readonly VerificationTokenSettings _verificationTokenSettings;
@@ -18,7 +18,7 @@ public class VerificationTokenGeneratorService : IVerificationTokenGeneratorServ
         _protector = protector.CreateProtector(_verificationTokenSettings.IdentityVerificationTokenPurpose);
     }
 
-    public (VerificationToken Token, bool isValid) DecodeToken(string token)
+    public (VerificationCode Token, bool IsValid) DecodeToken(string token)
     {
         if (string.IsNullOrWhiteSpace(token))
         {
@@ -26,20 +26,21 @@ public class VerificationTokenGeneratorService : IVerificationTokenGeneratorServ
         }
 
         var unprotectedToken = _protector.Unprotect(token);
-        var verificationToken = JsonConvert.DeserializeObject<VerificationToken>(unprotectedToken) ??
+        var verificationToken = JsonConvert.DeserializeObject<VerificationCode>(unprotectedToken) ??
                                 throw new ArgumentNullException("Invalid verification Model", nameof(unprotectedToken));
 
         return (verificationToken, verificationToken.ExpiryTime > DateTimeOffset.UtcNow);
     }
 
-    public string GenerateToken(VerificationType type, Guid userId)
+    ValueTask<string> IVerificationCodeGeneratorService.GenerateCode(VerificationType verificationType, Guid userId)
     {
-        var verificationToken = new VerificationToken
+        var verificationToken = new VerificationCode
         {
             UserId = userId,
-            Type = type,
+            Type = verificationType,
             ExpiryTime = DateTimeOffset.UtcNow.AddMinutes(_verificationTokenSettings.IdentityVerificationExpirationDurationInMinutes)
         };
-        return _protector.Protect(JsonConvert.SerializeObject(verificationToken));
+        var result = _protector.Protect(JsonConvert.SerializeObject(verificationToken));
+        return new(result);
     }
 }

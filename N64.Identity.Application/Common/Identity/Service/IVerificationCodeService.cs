@@ -1,4 +1,4 @@
-﻿/*using N64.Identity.Application.Common.Identity.Models;
+﻿using N64.Identity.Application.Common.Identity.Models;
 using N64.Identity.Domain.Entities;
 using System.Linq.Expressions;
 
@@ -6,10 +6,10 @@ namespace N64.Identity.Application.Common.Identity.Service
 {
     public interface IVerificationCodeService
     {
-        ValueTask<Token> CreateTokenAsync(Token token);
-        ValueTask<Token> UpdateTokenAsync(Token token);
-        ValueTask<Token> GetUserByIdAsync();
-        IQueryable<User> Get(Expression<Func<User, bool>> predicate);
+        ValueTask<string> Generate(Guid userId);
+        ValueTask<VerificationCode> CreateAsync(VerificationCode code);
+        ValueTask<VerificationCode> UpdateAsync(VerificationCode code);
+        IQueryable<VerificationCode> Get(Expression<Func<VerificationCode, bool>> predicate);
 
     }
-}*/
+}

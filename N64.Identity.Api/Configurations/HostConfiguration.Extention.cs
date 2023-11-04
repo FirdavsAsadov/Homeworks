@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using N64.Identity.Application.Common.Identity.Service;
 using N64.Identity.Application.Common.NotificationService;
@@ -15,6 +16,7 @@ namespace N64.Identity.Api.Configurations
         private static WebApplicationBuilder AddIdentityInfrastructure(this WebApplicationBuilder builder)
         {
             builder.Services.Configure<VerificationTokenSettings>(builder.Configuration.GetSection(nameof(VerificationTokenSettings)));
+            builder.Services.Configure<VerificationCodeSettings>(builder.Configuration.GetSection(nameof(VerificationCodeSettings)));
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection(nameof(JwtSettings)));
 
             builder.Services.AddDataProtection();
@@ -29,7 +31,8 @@ namespace N64.Identity.Api.Configurations
                 .AddScoped<IAuthService, AuthService>()
                 .AddScoped<IAccountService, AccountService>()
                 .AddScoped<IUserService, UserService>()
-                .AddScoped<ITokenService, TokenService>();
+                .AddScoped<ITokenService, TokenService>()
+                .AddScoped<IVerificationCodeService, VerificationCodeService>();
                 
 
             var jwtSettings = new JwtSettings();
@@ -56,12 +59,14 @@ namespace N64.Identity.Api.Configurations
         private static WebApplicationBuilder AddNotificationInfrastructure(this WebApplicationBuilder builder)
         {
             builder.Services.Configure<EmailSenderSettings>(builder.Configuration.GetSection(nameof(EmailSenderSettings)));
+
             builder.Services.AddScoped<IEmailOrchestrationService, EmailOrchestrationService>();
             return builder;
         }
         private static WebApplicationBuilder AddPersistence(this WebApplicationBuilder builder)
         {
-            builder.Services.AddDbContext<AppDbContext>();
+            builder.Services.AddDbContext<AppDbContext>(options => 
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
             return builder;
         }
         private static WebApplicationBuilder AddDevTools(this WebApplicationBuilder builder)

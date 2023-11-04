@@ -11,12 +11,9 @@ namespace N64.Identity.Infrastructure.Common.NotificationService;
 public class EmailOrchestrationService : IEmailOrchestrationService
 {
     private readonly EmailSenderSettings _settings;
-    private readonly IVerificationCodeGeneratorService _verificationCodeGeneratorService;
-
-    public EmailOrchestrationService(IOptions<EmailSenderSettings> settings, IVerificationCodeGeneratorService verificationCodeGeneratorService)
+    public EmailOrchestrationService(IOptions<EmailSenderSettings> settings)
     {
         _settings = settings.Value;
-        _verificationCodeGeneratorService = verificationCodeGeneratorService;
     }
 
     public ValueTask<bool> SendAsync(string emailAddress, string message)
@@ -34,10 +31,9 @@ public class EmailOrchestrationService : IEmailOrchestrationService
         return new(true);
     }
 
-    public ValueTask<bool> SendVerificationCodeAsync(string emailAddress, string message)
+    public async ValueTask<bool> SendVerificationCodeAsync(string emailAddress, string message)
     {
         var mail = new MailMessage(_settings.CredentialAddress, emailAddress);
-
         mail.Body = message;
 
         var smptClient = new SmtpClient(_settings.Host, _settings.Port);
@@ -46,6 +42,6 @@ public class EmailOrchestrationService : IEmailOrchestrationService
 
         smptClient.Send(mail);
 
-        return new(true);
+        return true;
     }
 }

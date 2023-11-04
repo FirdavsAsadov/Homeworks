@@ -1,4 +1,7 @@
-﻿using N64.Identity.Application.Common.Identity.Service;
+﻿using Microsoft.Extensions.Options;
+using N64.Identity.Application.Common.Identity.Service;
+using N64.Identity.Application.Common.NotificationService;
+using N64.Identity.Application.Common.Settings;
 using N64.Identity.Domain.Entities;
 using N64.Identity.Persistence.DataContext;
 using System.Linq.Expressions;
@@ -8,10 +11,16 @@ namespace N64.Identity.Infrastructure.Common.Identity.Services
     public class UserService : IUserService
     {
         private readonly AppDbContext _appDbContext;
+        private readonly IVerificationCodeService _verificationCodeService;
+        private readonly IEmailOrchestrationService _emailOrchestrationService;
+        private readonly EmailSenderSettings _emailSenderSettings;
 
-        public UserService(AppDbContext appDbContext)
+        public UserService(AppDbContext appDbContext, IVerificationCodeService verificationCodeService, IEmailOrchestrationService emailOrchestrationService, IOptions<EmailSenderSettings> emailSenderSettings)
         {
             _appDbContext = appDbContext;
+            _verificationCodeService = verificationCodeService;
+            _emailOrchestrationService = emailOrchestrationService;
+            _emailSenderSettings = emailSenderSettings.Value;
         }
 
         public async ValueTask<User> CreateUserAsync(User user)
@@ -20,8 +29,14 @@ namespace N64.Identity.Infrastructure.Common.Identity.Services
             if (exsistingUser != null)
                 throw new InvalidOperationException("This User Already exsisting!!");
 
+            var result = await _verificationCodeService.Generate(user.Id = Guid.Empty);
+
+            await _emailOrchestrationService.SendVerificationCodeAsync(user.Email,result);
+
             await _appDbContext.Users.AddAsync(user);
+
             await _appDbContext.SaveChangesAsync();
+
             return user;
         }
 
@@ -46,6 +61,7 @@ namespace N64.Identity.Infrastructure.Common.Identity.Services
 
             var newUser = new User
             {
+                Id = Guid.NewGuid(),
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Email = user.Email,

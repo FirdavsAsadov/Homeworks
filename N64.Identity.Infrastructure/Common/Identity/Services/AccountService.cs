@@ -38,14 +38,14 @@ public class AccountService : IAccountService
         return result;
     }
 
-    public ValueTask<User> CreateUserAsync(User user)
+    public async ValueTask<User> CreateUserAsync(User user)
     {
-        _userService.CreateUserAsync(user);
+        await _userService.CreateUserAsync(user);
 
-        var emailVerification = _verificationTokenGeneratorService.GenerateCode(VerificationType.EmailAddressVerification, user.Id);
-        _emailOrchestrationService.SendAsync(user.Email, emailVerification.ToString());
+        var emailVerification = _verificationTokenGeneratorService.GenerateCode(VerificationType.EmailAddressVerification, user.Id = Guid.Empty);
+        await _emailOrchestrationService.SendVerificationCodeAsync(user.Email, emailVerification.ToString());
 
-        return new(user);
+        return user;
     }
 
     public ValueTask<bool> MarkEmailAsVerifiedAsync(Guid userId)
@@ -57,11 +57,11 @@ public class AccountService : IAccountService
         return new(true);
     }
 
-    public ValueTask<User> UpdateUserAsync(User user)
+    public async ValueTask<User> UpdateUserAsync(User user)
     {
-        _userService.UpdateUserAsync(user);
-        var emailVerification = _verificationTokenGeneratorService.GenerateCode(VerificationType.EmailAddressVerification, user.Id);
-        _emailOrchestrationService.SendVerificationCodeAsync(user.Email, emailVerification.ToString());
-        return new(user);
+        await _userService.UpdateUserAsync(user);
+        var emailVerification = _verificationTokenGeneratorService.GenerateCode(VerificationType.EmailAddressVerification, user.Id = Guid.Empty);
+        await _emailOrchestrationService.SendVerificationCodeAsync(user.Email, emailVerification.ToString());
+        return user;
     }
 }

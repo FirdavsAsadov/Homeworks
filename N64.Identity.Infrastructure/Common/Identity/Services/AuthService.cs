@@ -40,7 +40,7 @@ public class AuthService : IAuthService
 
         await _accountService.CreateUserAsync(newUser);
         var verificationEmailResult = await _emailOrchestrationService.SendAsync(registrationDetails.Email, "sistemaga xush kelibsiz");
-
+        var accessToken = await _tokenService.Generate(newUser);
         return true;
     }
     public ValueTask<string> LoginAsync(LoginDetails loginDetails)

@@ -10,18 +10,22 @@ namespace N64.Identity.Infrastructure.Common.Identity.Services
 {
     public class VerificationCodeGeneratorService : IVerificationCodeGeneratorService
     {
-        private readonly AppDbContext _appDbContext;
-        private readonly VerificationTokenSettings _verificationTokenSettings;
+        private readonly IVerificationCodeService _verificationCodeService;
 
-        public VerificationCodeGeneratorService(AppDbContext appDbContext, IOptions<VerificationTokenSettings> verificationTokenSettings)
+        public VerificationCodeGeneratorService(IVerificationCodeService verificationCodeService)
         {
-            _appDbContext = appDbContext;
-            _verificationTokenSettings = verificationTokenSettings.Value;
+            _verificationCodeService = verificationCodeService;
         }
 
         public async ValueTask<string> GenerateCode(VerificationType verificationType, Guid userId)
         {
-            var verificationCode = new VerificationCode
+
+            var result = await _verificationCodeService.Generate(userId);
+            if (result == null)
+                throw new InvalidOperationException("This code is empty!");
+
+            return result;
+/*            var verificationCode = new VerificationCode
             {
                 Id = Guid.NewGuid(),
                 UserId = userId,
@@ -31,7 +35,7 @@ namespace N64.Identity.Infrastructure.Common.Identity.Services
             };
             await _appDbContext.VerificationCodes.AddAsync(verificationCode);
             await _appDbContext.SaveChangesAsync();
-            return verificationCode.Code;
+            return verificationCode.Code;*/
         }
 
         public (VerificationCode Token, bool IsValid) DecodeToken(string token)

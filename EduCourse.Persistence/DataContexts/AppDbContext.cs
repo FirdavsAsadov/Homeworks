@@ -7,7 +7,9 @@ namespace EduCourse.Persistence.DataContexts
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Course> Courses { get; set; }
-        public DbSet<CourseStudent> CourseStudents { get; set; }
+        public DbSet<CourseStudent> StudentCourses { get; set; }
+        public DbSet<Role> Roles  => Set<Role>();
+
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {

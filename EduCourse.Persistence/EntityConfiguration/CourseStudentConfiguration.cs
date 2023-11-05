@@ -14,8 +14,8 @@ namespace EduCourse.Persistence.EntityConfiguration
         public void Configure(EntityTypeBuilder<CourseStudent> builder)
         {
             builder.HasKey(courseStudent => new { courseStudent.CourseId, courseStudent.StudentId });
-            builder.HasOne(x => x.Course).WithMany(x => x.Students).HasForeignKey(x => x.CourseId);
-            builder.HasOne(x => x.Student).WithMany(x => x.StudentCourses).HasForeignKey(c => c.StudentId);
+            builder.HasOne(x => x.Course).WithMany(x => x.CourseStudents).HasForeignKey(x => x.CourseId);
+            builder.HasOne(x => x.Student).WithMany(x => x.CoursStudents).HasForeignKey(c => c.StudentId);
         }
     }
 }

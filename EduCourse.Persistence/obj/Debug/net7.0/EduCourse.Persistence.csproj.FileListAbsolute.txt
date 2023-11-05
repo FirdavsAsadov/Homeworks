@@ -1,0 +1,17 @@
+C:\Users\toshm\Homeworks\EduCourse.Persistence\bin\Debug\net7.0\EduCourse.Persistence.deps.json
+C:\Users\toshm\Homeworks\EduCourse.Persistence\bin\Debug\net7.0\EduCourse.Persistence.runtimeconfig.json
+C:\Users\toshm\Homeworks\EduCourse.Persistence\bin\Debug\net7.0\EduCourse.Persistence.dll
+C:\Users\toshm\Homeworks\EduCourse.Persistence\bin\Debug\net7.0\EduCourse.Persistence.pdb
+C:\Users\toshm\Homeworks\EduCourse.Persistence\bin\Debug\net7.0\EduCourse.Domain.dll
+C:\Users\toshm\Homeworks\EduCourse.Persistence\bin\Debug\net7.0\EduCourse.Domain.pdb
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.csproj.CopyComplete
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.dll
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\refint\EduCourse.Persistence.dll
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.pdb
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\EduCourse.Persistence.genruntimeconfig.cache
+C:\Users\toshm\Homeworks\EduCourse.Persistence\obj\Debug\net7.0\ref\EduCourse.Persistence.dll

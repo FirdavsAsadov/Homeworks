@@ -14,7 +14,7 @@ namespace EduCourse.Persistence.EntityConfiguration
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.Property(user => user.FirstName).IsRequired().HasMaxLength(256);
-
+            builder.Property(user => user.LastName).IsRequired().HasMaxLength(256);
         }
     }
 }

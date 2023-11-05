@@ -1,0 +1,11 @@
+C:\Users\toshm\Homeworks\N67.Domain[\bin\Debug\net7.0\EduCourse.Domain.deps.json
+C:\Users\toshm\Homeworks\N67.Domain[\bin\Debug\net7.0\EduCourse.Domain.dll
+C:\Users\toshm\Homeworks\N67.Domain[\bin\Debug\net7.0\EduCourse.Domain.pdb
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\EduCourse.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\EduCourse.Domain.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\EduCourse.Domain.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\EduCourse.Domain.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\EduCourse.Domain.dll
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\refint\EduCourse.Domain.dll
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\EduCourse.Domain.pdb
+C:\Users\toshm\Homeworks\N67.Domain[\obj\Debug\net7.0\ref\EduCourse.Domain.dll

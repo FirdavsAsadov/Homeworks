@@ -1,0 +1,7 @@
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\toshm\Homeworks\EduCourse.Ap\obj\Debug\net7.0\EduCourse.Api.MvcApplicationPartsAssemblyInfo.cache

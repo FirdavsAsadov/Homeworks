@@ -1,0 +1,15 @@
+C:\Users\toshm\Homeworks\EduCourse.Application\bin\Debug\net7.0\EduCourse.Application.deps.json
+C:\Users\toshm\Homeworks\EduCourse.Application\bin\Debug\net7.0\EduCourse.Application.dll
+C:\Users\toshm\Homeworks\EduCourse.Application\bin\Debug\net7.0\EduCourse.Application.pdb
+C:\Users\toshm\Homeworks\EduCourse.Application\bin\Debug\net7.0\EduCourse.Domain.dll
+C:\Users\toshm\Homeworks\EduCourse.Application\bin\Debug\net7.0\EduCourse.Domain.pdb
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.csproj.AssemblyReference.cache
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.AssemblyInfoInputs.cache
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.AssemblyInfo.cs
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.csproj.CoreCompileInputs.cache
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.csproj.CopyComplete
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.dll
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\refint\EduCourse.Application.dll
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\EduCourse.Application.pdb
+C:\Users\toshm\Homeworks\EduCourse.Application\obj\Debug\net7.0\ref\EduCourse.Application.dll
